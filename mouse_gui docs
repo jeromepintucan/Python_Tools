@@ -1,0 +1,9 @@
+mouse_gui docs
+
+pip install pyautogui
+pip install pyinstaller
+
+pyinstaller --onefile --windowed mouse_mover.py
+
+
+app is located in the dist folder
